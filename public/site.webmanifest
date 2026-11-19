@@ -1,0 +1,33 @@
+{
+  "name": "Call of Duty Black Ops 7 Hacks",
+  "short_name": "buybo7cheats",
+  "description": "Black Ops 7 hacks with player ESP, loot ESP, aimbot, no recoil and stream-proof overlays for PC.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0a0d10",
+  "theme_color": "#22d3ee",
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ]
+}
