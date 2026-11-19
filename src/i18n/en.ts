@@ -1,6 +1,6 @@
 import type { Translations } from './types';
 import { PRIMARY_CHECKOUT_PATH } from '../config/checkout';
-import { DISCORD_URL, PRODUCT_BASE } from '../config/site';
+import { DISCORD_URL, PRODUCT_BASE, SUPPORT_EMAIL } from '../config/site';
 
 const productBase = PRODUCT_BASE;
 
@@ -585,13 +585,34 @@ export const en: Translations = {
   },
   support: {
     eyebrow: 'Support',
-    title: 'Call of Duty: Black Ops 7 Hacks Discord Support',
-    subtitle: 'Open a Discord ticket for Call of Duty: Black Ops 7 loader errors, HWID Spoofer setup and checkout help.',
+    title: 'Call of Duty: Black Ops 7 Hacks support',
+    subtitle: 'Loader, HWID, checkout and account help.',
     channels: [
       {
-        icon: 'messageCircle',
-        title: 'Discord support',
-        desc: 'Join Discord and open a ticket for loader, HWID, and account issues.',
+        icon: 'userRound',
+        title: 'Before you buy',
+        desc: 'Ask about Lite, Pro and Elite tiers and what each product includes.',
+        linkLabel: 'Start checkout',
+        href: `${productBase}`,
+      },
+      {
+        icon: 'headphones',
+        title: 'Email support',
+        desc: 'Loader errors, HWID Spoofer and account issues.',
+        linkLabel: SUPPORT_EMAIL,
+        href: `mailto:${SUPPORT_EMAIL}`,
+      },
+      {
+        icon: 'navFaq',
+        title: 'FAQ',
+        desc: 'Compatibility, Ricochet Anti-Cheat risk and setup answers.',
+        linkLabel: 'View FAQ',
+        href: '/faq/',
+      },
+      {
+        icon: 'support247',
+        title: 'Discord',
+        desc: 'Support online 24/7—open a ticket after you join.',
         linkLabel: 'Join Discord',
         href: DISCORD_URL,
       },
